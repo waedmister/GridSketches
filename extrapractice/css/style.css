@@ -1,0 +1,96 @@
+/*words cutoff of topleft at smallest size. Picture cutsoff as screen expands*/
+
+div {
+  height: 300px;
+  background-color: black;
+}
+.topleft {
+  background-color: black;
+  color: white;
+  text-align: center
+
+}
+.topright{
+  background-color: black;
+  color: white;
+  text-align: center
+}
+.middle {
+  height: 300px;
+  width: 100%;
+  background-image: url("../images/DMB.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.photoheading {
+text-align: center;
+color: white;
+}
+
+.bottomleft {
+  background-color: black;
+  color: white;
+  text-align: center
+}
+
+.bottomcenter {
+  background-color: black;
+  color: white;
+  text-align: center
+}
+
+.bottomright {
+  background-color: black;
+  color: white;
+  text-align: center
+}
+h1 {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  body {
+      max-width: 960px;
+  }
+  .topleft {
+    padding-left: 50px;
+    float: left;
+    width: 37%;
+  }
+.topright {
+  padding-right: 50px;
+  float: right;
+  width: 37%;
+}
+.bottomleft {
+  float: left;
+  width: 32%;
+
+}
+.bottomcenter {
+  float: left;
+  float: 32%;
+
+}
+.bottomright {
+  float: right;
+  width: 32%;
+}
+}
+@media (max-width: 767px) {
+  .topleft {
+    padding-left: 50px;
+    float: left;
+    width: 37%;
+  }
+.topright {
+  padding-right: 50px;
+  float: right;
+  width: 37%;
+}
+
+div {
+  height: 350px;
+}

@@ -1,0 +1,107 @@
+.blue {
+  background-color: blue;
+  height: 300px;
+  color: white;
+}
+.black {
+  background-color: black;
+  height: 300px;
+  color: white;
+}
+.red {
+  background-color: red;
+  height: 300px;
+  color: white;
+}
+
+
+.green, .yellow, .blue {
+  margin-top: 25px;
+}
+.green {
+  background-color: green;
+  height: 300px;
+  color: white;
+  float: left;
+  width: 33%;
+}
+.yellow {
+  background-color: yellow;
+  height: 300px;
+  color: white;
+  float: left;
+  width: 33%;
+}
+.pink {
+  background-color: pink;
+  height: 300px;
+  color: white;
+  float: right;
+  width: 34%;
+}
+.orange {
+  background-color: orange;
+  height: 300px;
+  color: white;
+}
+.purple {
+  background-color: purple;
+  height: 300px;
+  color: white;
+}
+.gray {
+  background-color: gray;
+  height: 300px;
+  color: white;
+}
+
+.bottomboxes {
+  margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+  body {
+    max-width: 960px;
+  }
+
+  .blue {
+    float: left;
+    width: 33%;
+}
+  .black {
+  float: left;
+  width: 33%;
+}
+
+.red {
+  float: right;
+  width: 34%;
+}
+.orange {
+  float: left;
+  width: 33%;
+}
+.purple {
+  float: left;
+  width: 33%;
+}
+.gray {
+  float: right;
+  width: 34%;
+}
+}
+
+@media (max-width: 767px) {
+  .green {
+    float: left;
+    width: 33%;
+  }
+  .yellow {
+    float: left;
+    width: 33%;
+  }
+.pink {
+  float: right;
+  width: 34%;
+}
+}
